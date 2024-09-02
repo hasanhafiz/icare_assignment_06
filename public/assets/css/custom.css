@@ -1,0 +1,13 @@
+.template-home #footer {
+    margin-top: -50px;
+}
+
+@media (min-width: 992px) {
+    #header .header-nav.header-nav-links:not(.header-nav-light-text) nav>ul>li>a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav>ul>li>a {
+        color:#FFF;
+    }
+
+    #header .header-nav.header-nav-links:not(.header-nav-light-text) nav>ul>li>a:hover, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav>ul>li>a:hover {
+        color:#0088cc;
+    }
+}
